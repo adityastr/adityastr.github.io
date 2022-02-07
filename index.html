@@ -1,15 +1,217 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Background CSS</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1>Hello Dunia</h1>
-    <p>hai</p>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-</body>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+
+    <!-- my css -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio</title>
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <div class="navbar-fixed">
+      <nav class="grey darken-3">
+        <div class="container">
+          <div class="nav-wrapper">
+            <a href="#" class="brand-logo">Logo</a>
+            <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <li><a href="#">About Me</a></li>
+              <li><a href="#">Hoby</a></li>
+              <li><a href="#">Galery</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+
+    <ul id="slide-out" class="sidenav">
+      <li>
+        <div class="user-view">
+          <div class="background">
+            <img src="img/profil/concrete_wall.png" />
+          </div>
+          <a href="#user"><img class="circle" src="images/yuna.jpg" /></a>
+          <a href="#name"><span class="white-text name">Aditya Saputra</span></a>
+          <a href="#"><span class="white-text disabled">madityaregar@gmail.com</span></a>
+        </div>
+      </li>
+      <li><a href="#">About Me</a></li>
+      <li><a href="#">Hoby</a></li>
+      <li><a href="#">Galery</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <!-- akhir navbar -->
+
+    <!-- slider -->
+    <div class="slider">
+      <ul class="slides">
+        <li>
+          <img src="img/slider/kristaps-ungurs-EO7R73ZMuZI-unsplash.jpg" />
+          <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <!-- random image -->
+          <div class="caption center-align">
+            <h3 class="">Hai, Selamat Datang <i class="material-icons">sentiment_satisfied_alt</i></h3>
+          </div>
+        </li>
+        <li>
+          <img src="https://lorempixel.com/580/250/nature/2" />
+          <!-- random image -->
+          <div class="caption left-align">
+            <h3>Bagaimana Kabarmu?</h3>
+          </div>
+        </li>
+        <li>
+          <img src="https://lorempixel.com/580/250/nature/3" />
+          <!-- random image -->
+          <div class="caption right-align">
+            <h3>Semoga Sehat Selalu</h3>
+          </div>
+        </li>
+        <li>
+          <img src="https://lorempixel.com/580/250/nature/4" />
+          <!-- random image -->
+          <div class="caption center-align">
+            <h3>Terima Kasih sudah Berkunjung</h3>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <!-- akhir slider -->
+
+    <!-- about -->
+    <section class="about" id="about">
+      <div class="container">
+        <h3 class="center gray-text">About Me</h3>
+        <div class="row">
+          <div class="col m6 s12">
+            <div class="card-panel teal darken-2 hoverable">
+              <span class="white-text"
+                >I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
+              </span>
+            </div>
+          </div>
+          <div class="col m6 s12">
+            <div class="card-panel teal darken-2">
+              <span class="white-text"
+                >I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- akhir about -->
+
+    <!-- my hobby -->
+    <section class="hoby" id="hoby">
+      <div class="parallax-container">
+        <div class="parallax">
+          <img src="img/tezos-mKLjUjUkX6c-unsplash.jpg" />
+        </div>
+        <div class="container">
+          <h3 class="center white-text text-darken-3">My Hoby</h3>
+          <div class="row center">
+            <div class="col m4 s12">
+              <i class="material-icons medium">games</i>
+            </div>
+            <div class="col m4 s12">
+              <i class="material-icons medium">code</i>
+            </div>
+            <div class="col m4 s12">
+              <i class="material-icons medium">menu_book</i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- akhir my hobby -->
+
+    <!-- gallery -->
+    <section class="projects" id="projects">
+      <div class="container">
+        <div class="row">
+          <div class="col m3 s12">
+            <img src="" alt="">
+          </div>
+          <div class="col m3 s12">
+            <img src="" alt="">
+          </div>
+          <div class="col m3 s12">
+            <img src="" alt="">
+          </div>
+          <div class="col m3 s12">
+            <img src="" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- akhir galery -->
+
+
+
+    <!-- contact me -->
+    <section>
+      <div class="container">
+
+    </section>
+    <!-- akhir contact me -->
+
+    <!-- footer -->
+    <section class="contact" id="contact">    <footer class="page-footer teal">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Contact</h5>
+            <p class="grey-text text-lighten-4">Jika ada pertanyaan yang disampaikan bisa klik link berikut</p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Links</h5>
+            <ul>
+              <li><a class="grey-text text-lighten-3" href="#!">
+                <img src="img/icon/whatsapp.png" alt="">
+              </a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+        © 2022 Copyright 
+        </div>
+      </div>
+    </footer>
+  </section>
+
+    <!-- akhir footer -->
+
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+
+    <script>
+      const sidenav = document.querySelectorAll('.sidenav');
+      M.Sidenav.init(sidenav);
+
+      const slider = document.querySelectorAll('.slider');
+      M.Slider.init(slider, {
+        indicators: false,
+      });
+
+      const parallax = document.querySelectorAll('.parallax');
+      M.Parallax.init(parallax);
+    </script>
+  </body>
 </html>

@@ -1,0 +1,16 @@
+li a img {
+  margin-right: 30px;
+}
+
+.parallax-container {
+  height: 300px;
+}
+
+.parallax-container .parallax {
+  filter: grayscale(1);
+  opacity: 0.5px !important;
+}
+
+h3 {
+  text-shadow: 2px 2px 2px #616161;
+}
